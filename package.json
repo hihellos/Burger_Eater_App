@@ -1,0 +1,25 @@
+{
+  "name": "burger_eater_app",
+  "version": "1.0.0",
+  "description": "A fun burger eating app built using MySQL, Node, Express, Handlebars and a homemade ORM, featuring the the MVC design pattern.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hihellos/Burger_Eater_App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hihellos/Burger_Eater_App/issues"
+  },
+  "homepage": "https://github.com/hihellos/Burger_Eater_App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
