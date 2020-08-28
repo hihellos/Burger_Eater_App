@@ -6,3 +6,8 @@
     -- With the mysql> command line tool running, enter the command source schema.sql. This will run your schema file and all of the queries in it -- in other words, you'll be creating your database.
     -- Now insert the entries you defined in seeds.sql by running the file: source seeds.sql.
     -- Close out of the MySQL command line tool: exit.
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cheeseburger', false)
+INSERT INTO burgers (burger_name, devoured) VALUES ('Bacon Cheeseburger', false)
+INSERT INTO burgers (burger_name, devoured) VALUES ('Junior Cheeseburger', false)
+INSERT INTO burgers (burger_name, devoured) VALUES ('Katsuburger', false)
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Cheeseburger', false)
