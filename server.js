@@ -5,3 +5,5 @@
 // Install MySQL npm package: npm install mysql.
 // Require the following npm packages inside of the server.js file:
     // express
+
+const express = require("express");
