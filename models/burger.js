@@ -6,7 +6,7 @@ const orm = require("../config/orm.js");
 
 let burger = {
     all: function(cb) {
-        orm.all("burgers", cols, vals, function(res) {
+        orm.all("burgers", function(res) {
             cb(res);
         });
     },
