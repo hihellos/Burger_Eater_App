@@ -1,8 +1,11 @@
 body {
     text-align: center;
+    background: radial-gradient(#FF7433, white, white);
+    background-repeat: no-repeat;
 }
 
 img {
     align-content: center;
-    height: 200px
+    height: 200px;
+    padding-top: 7%;
 }
