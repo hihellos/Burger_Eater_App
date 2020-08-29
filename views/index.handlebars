@@ -4,6 +4,24 @@
 <h1>How Much Can You Burger?!</h1>
 <h3>Add all the burgers you want to try, then devour your burger collection! Enjoy <span role="img" aria-label="Smiling Eyes Face">😊</span></h3>
 
+{{!-- Burgers to try - not devoured --}}
+<ul>
+    {{#each burgers}}
+      {{#unless devoured}}
+        {{> burgers/burger-block devoured=true}}
+      {{/unless}}
+    {{/each}}
+</ul>
+
+{{!-- Burgers devoured --}}
+<ul>
+    {{#each burgers}}
+      {{#if devoured}}
+        {{> burgers/burger-block devoured=false}}
+      {{/if}}
+    {{/each}}
+</ul>
+
 <h2>Add Your Burgers</h2>
 <form class="create-form">
     <div class="form-group">
