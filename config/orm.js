@@ -6,7 +6,6 @@
 // Export the ORM object in module.exports.
 
 const connection = require("../config/connection.js");
-const { query } = require("express");
 
 // Helper function to create array of ?s then turn them into a string for sql query
 function printQuestionMarks(num) {

@@ -5,7 +5,7 @@ $(function() {
       let newDevour = $(this).data("newdevour");
   
       var newDevouredState = {
-        sleepy: newDevour
+        devoured: newDevour
       };
   
       // Send the PUT request.
@@ -27,7 +27,7 @@ $(function() {
   
       let newBurger = {
         name: $("#burg").val().trim(),
-        sleepy: $("[name=devoured]:checked").val().trim()
+        devoured: $("[name=devoured]:checked").val().trim()
       };
   
       // Send the POST request.
